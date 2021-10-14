@@ -42,6 +42,7 @@ public class VehicleController : MonoBehaviour
             if(dashx > 0.0f) //dash to the right
             {
                 print(dashx);
+                //transform.rotation = Quaternion.Slerp()
                 transform.localPosition += new Vector3(dashDistance, 0, 0);
             }
             else //dash to the left
@@ -67,5 +68,19 @@ public class VehicleController : MonoBehaviour
         Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
         position.y = Mathf.Clamp01(position.y);
         transform.position = Camera.main.ViewportToWorldPoint(position);
+    }
+
+    public void OnDeath()
+    {
+        Destroy(this);
+    }
+
+    public void takeDamage(float dmg)
+    {
+        health -= dmg;
+        if (health <= 0)
+        {
+            OnDeath(); 
+        }
     }
 }

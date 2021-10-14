@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7fd3edb6a53c67a498d5da4cc1f16e2b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.3176166, g: 0.31523618, b: 0.46106678, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Path: {fileID: 1029214468}
   m_UpdateMethod: 0
   m_PositionUnits: 1
-  m_Speed: 5
+  m_Speed: 4
   m_Position: 0
 --- !u!4 &18041714
 Transform:
@@ -164,7 +164,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18041712}
-  m_LocalRotation: {x: -0.020867009, y: 0.14553908, z: 0.003070346, w: 0.9891277}
+  m_LocalRotation: {x: -0.020983074, y: 0.14514211, z: 0.0030788297, w: 0.98918355}
   m_LocalPosition: {x: 0.09644019, y: 1.08, z: -0.15405607}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264310650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.2, y: 2.62, z: 21.07}
+  m_LocalPosition: {x: -11.24, y: 2.62, z: 21.07}
   m_LocalScale: {x: 1, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -642,7 +642,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.10471553, g: 0.08202206, b: 0.2264151, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -834,6 +834,8 @@ MonoBehaviour:
     roll: 0
   - position: {x: 6.6807156, y: -0.8807024, z: 5.5766597}
     roll: 0
+  - position: {x: 20.09755, y: -0.39547217, z: -23.84668}
+    roll: 0
 --- !u!4 &1029214469
 Transform:
   m_ObjectHideFlags: 0
@@ -860,6 +862,7 @@ GameObject:
   - component: {fileID: 1191213076}
   - component: {fileID: 1191213075}
   - component: {fileID: 1191213074}
+  - component: {fileID: 1191213078}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -943,3 +946,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1191213078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191213073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f988d89059b3de489f0cda820eb8487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
