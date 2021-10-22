@@ -10,13 +10,19 @@ public class VehicleController : MonoBehaviour
     public float nextDash;
     public float dashCooldown;
     public float dashDistance;
+    public float dashTime;
+    public bool  moveable;
+    public bool  hittable;
 
     // Start is called before the first frame update
     void Start()
     {
-        nextDash = 0;
-        dashCooldown = 3;
-        dashDistance = 5;
+        nextDash = 0f;
+        dashCooldown = 3f;
+        dashDistance = 5f;
+        dashTime = 1f;
+        moveable = true;
+        hittable = true;
     }
 
     // Update is called once per frame
@@ -26,35 +32,33 @@ public class VehicleController : MonoBehaviour
         float dx = Input.GetAxis("Horizontal");
         float dashx = Input.GetAxis("Dashing");
 
-        if(Mathf.Abs(dy)> 0.001f) //if we are moving vertically
+        if(Mathf.Abs(dy)> 0.001f && moveable == true) //if we are moving vertically
         {
             transform.localPosition += new Vector3(0, dy*givenAmount*Time.deltaTime, 0);
             StayInBoundsY();
         }
-        if(Mathf.Abs(dx) > 0.001f) //if we are moving horizontally
+        if (Mathf.Abs(dx) > 0.001f && moveable == true) //if we are moving horizontally
         {
             transform.localPosition += new Vector3(dx*givenAmount*Time.deltaTime, 0, 0);
             StayInBoundsX();
         }
+
         if(Mathf.Abs(dashx) > 0.001f && Time.time > nextDash) //if there is dash input and cooldown is done
         {
-            Debug.Log("Dashing");
             if(dashx > 0.0f) //dash to the right
             {
-                print(dashx);
-                //transform.rotation = Quaternion.Slerp()
-                transform.localPosition += new Vector3(dashDistance, 0, 0);
+                StartCoroutine(SpinRight(dashTime));
             }
             else //dash to the left
             {
-                transform.localPosition += new Vector3(-dashDistance, 0, 0);
+                StartCoroutine(SpinLeft(dashTime));
             }
             nextDash = Time.time + dashCooldown; //nextDash becomes greater than Time so cannot be done until time passes it
             StayInBoundsX();
             
         }
-        
     }
+
     //This method clamps the player position to the ends of the screen
     void StayInBoundsX() 
     {
@@ -78,9 +82,48 @@ public class VehicleController : MonoBehaviour
     public void takeDamage(float dmg)
     {
         health -= dmg;
-        if (health <= 0)
-        {
+        if (health <= 0) {
             OnDeath(); 
         }
+    }
+
+    IEnumerator SpinRight(float time)
+    {
+        hittable = false;
+        Vector3 endPosition = new Vector3(transform.localPosition.x+5f, transform.position.y, transform.position.z);
+        float savedHealth = health; 
+        float i = 0.0f;
+
+        health = 1000.0f;
+        while (transform.position != endPosition &&  i < time)
+        {
+            i += Time.deltaTime;
+            //this.transform.position = Vector3.MoveTowards(this.transform.position, endPosition, 20f * Time.deltaTime);
+            transform.Rotate(0f, 0f, 360f * time * Time.deltaTime, Space.Self);
+           
+            yield return null;
+        }
+        health = savedHealth;
+        hittable = true;
+    }
+
+    IEnumerator SpinLeft(float time)
+    {
+        hittable = false;
+        Vector3 endPosition = new Vector3(transform.localPosition.x - 5f, transform.position.y, transform.position.z);
+        float savedHealth = health;
+        float i = 0.0f;
+
+        health = 1000.0f;
+        while (transform.position != endPosition && i < time)
+        {
+            i += Time.deltaTime;
+            //this.transform.position = Vector3.MoveTowards(this.transform.position, endPosition, 20f * Time.deltaTime);
+            transform.Rotate(0f, 0f, 360f * time * Time.deltaTime, Space.Self);
+
+            yield return null;
+        }
+        health = savedHealth;
+        hittable = true;
     }
 }
