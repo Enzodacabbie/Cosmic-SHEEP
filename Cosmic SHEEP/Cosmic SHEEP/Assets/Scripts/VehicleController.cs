@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class VehicleController : MonoBehaviour
 {
@@ -11,18 +12,33 @@ public class VehicleController : MonoBehaviour
     public float dashCooldown;
     public float dashDistance;
     public float dashTime;
+    public float maxSpeed;
+    public float minSpeed;
+    public float baseSpeed;
+   
     public bool  moveable;
     public bool  hittable;
+
+    public CinemachineDollyCart cart;
+    public Camera cam;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        cart = this.GetComponentInParent<CinemachineDollyCart>();
+
         nextDash = 0f;
         dashCooldown = 3f;
         dashDistance = 5f;
         dashTime = 1f;
+        baseSpeed = cart.m_Speed;
+        maxSpeed = 8f;
+        minSpeed = 2f;
+
         moveable = true;
         hittable = true;
+        
     }
 
     // Update is called once per frame
@@ -31,6 +47,7 @@ public class VehicleController : MonoBehaviour
         float dy = Input.GetAxis("Vertical");
         float dx = Input.GetAxis("Horizontal");
         float dashx = Input.GetAxis("Dashing");
+        float movement = Input.GetAxis("Boost");
 
         if(Mathf.Abs(dy)> 0.001f && moveable == true) //if we are moving vertically
         {
@@ -55,8 +72,46 @@ public class VehicleController : MonoBehaviour
             }
             nextDash = Time.time + dashCooldown; //nextDash becomes greater than Time so cannot be done until time passes it
             StayInBoundsX();
-            
         }
+
+        if(Mathf.Abs(movement) > 0.001f)
+        {
+            changeSpeed(movement);
+        }
+        if (cart.m_Speed != baseSpeed && Mathf.Abs(movement) == 0)
+        {
+            resetSpeed();
+        }
+    }
+
+    void changeSpeed(float boostSpeed)
+    {
+        if (boostSpeed > 0.0f)
+        {
+            if (cart.m_Speed < maxSpeed)
+            {
+                cart.m_Speed += 0.1f;
+                changeCameraZoom(90);
+            }
+        }
+
+        else
+        {
+            if (cart.m_Speed > minSpeed)
+            {
+                cart.m_Speed -= 0.1f;
+                changeCameraZoom(40);
+            }
+               
+        }
+    }
+
+    void resetSpeed()
+    {
+        if (cart.m_Speed < baseSpeed)
+            cart.m_Speed += 0.1f;
+        else
+            cart.m_Speed -= 0.1f;
     }
 
     //This method clamps the player position to the ends of the screen
@@ -72,6 +127,28 @@ public class VehicleController : MonoBehaviour
         Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
         position.y = Mathf.Clamp01(position.y);
         transform.position = Camera.main.ViewportToWorldPoint(position);
+    }
+
+    void changeCameraZoom(float zoom)
+    {
+        if (zoom > 60)
+        {
+            if (cam.fieldOfView < 90)
+                cam.fieldOfView += (300 * Time.deltaTime);
+        }
+        else if (zoom < 60)
+        {
+            if (cam.fieldOfView > 40)
+            {
+                cam.fieldOfView -= (300 * Time.deltaTime);
+            }
+        }
+        else
+        {
+            cam.fieldOfView = 60;
+        }
+        
+        //cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, cam.fieldOfView + 500 * Time.deltaTime, 90*Time.deltaTime);
     }
 
     public void OnDeath()
@@ -126,4 +203,6 @@ public class VehicleController : MonoBehaviour
         health = savedHealth;
         hittable = true;
     }
+
+    
 }
