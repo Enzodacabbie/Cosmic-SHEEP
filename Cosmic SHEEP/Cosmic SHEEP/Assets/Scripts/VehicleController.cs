@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class VehicleController : MonoBehaviour
 {
-    public float givenAmount;
+    public float speed;
     public float health;
     public float maxHealth;
     public float nextDash;
@@ -15,12 +15,15 @@ public class VehicleController : MonoBehaviour
     public float maxSpeed;
     public float minSpeed;
     public float baseSpeed;
+    public float lookSpeed;
    
     public bool  moveable;
     public bool  hittable;
+    public bool  canBoost;
 
     public CinemachineDollyCart cart;
     public Camera cam;
+    public GameObject aimTarget;
 
 
     // Start is called before the first frame update
@@ -28,6 +31,7 @@ public class VehicleController : MonoBehaviour
     {
         cart = this.GetComponentInParent<CinemachineDollyCart>();
 
+        speed = 20;
         nextDash = 0f;
         dashCooldown = 3f;
         dashDistance = 5f;
@@ -35,9 +39,13 @@ public class VehicleController : MonoBehaviour
         baseSpeed = cart.m_Speed;
         maxSpeed = 8f;
         minSpeed = 2f;
+        health = 100;
+        maxHealth = 200;
+        lookSpeed = 500;
 
         moveable = true;
         hittable = true;
+        canBoost = true;
         
     }
 
@@ -51,13 +59,13 @@ public class VehicleController : MonoBehaviour
 
         if(Mathf.Abs(dy)> 0.001f && moveable == true) //if we are moving vertically
         {
-            transform.localPosition += new Vector3(0, dy*givenAmount*Time.deltaTime, 0);
-            StayInBoundsY();
+            lookAtTarget(aimTarget.transform.position, dx, dy, lookSpeed);
+            move(dx, dy, speed);
         }
         if (Mathf.Abs(dx) > 0.001f && moveable == true) //if we are moving horizontally
         {
-            transform.localPosition += new Vector3(dx*givenAmount*Time.deltaTime, 0, 0);
-            StayInBoundsX();
+            lookAtTarget(aimTarget.transform.position, dx, dy, lookSpeed);
+            move(dx, dy, speed);
         }
 
         if(Mathf.Abs(dashx) > 0.001f && Time.time > nextDash) //if there is dash input and cooldown is done
@@ -71,10 +79,10 @@ public class VehicleController : MonoBehaviour
                 StartCoroutine(SpinLeft(dashTime));
             }
             nextDash = Time.time + dashCooldown; //nextDash becomes greater than Time so cannot be done until time passes it
-            StayInBoundsX();
+            StayInBounds();
         }
 
-        if(Mathf.Abs(movement) > 0.001f)
+        if(Mathf.Abs(movement) > 0.001f && canBoost == true)
         {
             changeSpeed(movement);
         }
@@ -82,6 +90,25 @@ public class VehicleController : MonoBehaviour
         {
             resetSpeed();
         }
+    }
+
+    void move(float x, float y, float speed)
+    {
+        transform.localPosition += new Vector3(x, y, 0) * speed * Time.deltaTime;
+        StayInBounds();
+    }
+
+    void lookAtTarget(Vector3 pos, float x, float y, float lookspeed)
+    {
+        Quaternion look = Quaternion.LookRotation(aimTarget.transform.position);
+        aimTarget.transform.localPosition = new Vector3(x*2, (y+1)*2, 6);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, look, Mathf.Deg2Rad * lookSpeed * Time.deltaTime);
+        transform.LookAt(aimTarget.transform);
+    }
+
+    void Lean()
+    {
+
     }
 
     void changeSpeed(float boostSpeed)
@@ -108,25 +135,27 @@ public class VehicleController : MonoBehaviour
 
     void resetSpeed()
     {
-        if (cart.m_Speed < baseSpeed)
-            cart.m_Speed += 0.1f;
+        if (cart.m_Speed < baseSpeed) //the player is boosting
+            cart.m_Speed += 0.01f;
         else
-            cart.m_Speed -= 0.1f;
+            cart.m_Speed -= 0.01f;    //the player is breaking
     }
 
     //This method clamps the player position to the ends of the screen
-    void StayInBoundsX() 
+    void StayInBounds() 
     {
         Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
         position.x = Mathf.Clamp01(position.x);
+        position.y = Mathf.Clamp01(position.y);
         transform.position = Camera.main.ViewportToWorldPoint(position);
     }
 
-    void StayInBoundsY()
+    void StayInBounds(GameObject x)
     {
-        Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
+        Vector3 position = Camera.main.WorldToViewportPoint(x.transform.position);
+        position.x = Mathf.Clamp01(position.x);
         position.y = Mathf.Clamp01(position.y);
-        transform.position = Camera.main.ViewportToWorldPoint(position);
+        x.transform.position = Camera.main.ViewportToWorldPoint(position);
     }
 
     void changeCameraZoom(float zoom)
@@ -147,8 +176,6 @@ public class VehicleController : MonoBehaviour
         {
             cam.fieldOfView = 60;
         }
-        
-        //cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, cam.fieldOfView + 500 * Time.deltaTime, 90*Time.deltaTime);
     }
 
     public void OnDeath()
@@ -164,9 +191,10 @@ public class VehicleController : MonoBehaviour
         }
     }
 
-    IEnumerator SpinRight(float time)
+    IEnumerator SpinRight(float time) //does a 360 rotation to the right and sets health 1000 while doing so
     {
         hittable = false;
+        canBoost = false;
         Vector3 endPosition = new Vector3(transform.localPosition.x+5f, transform.position.y, transform.position.z);
         float savedHealth = health; 
         float i = 0.0f;
@@ -182,11 +210,13 @@ public class VehicleController : MonoBehaviour
         }
         health = savedHealth;
         hittable = true;
+        canBoost = true;
     }
 
-    IEnumerator SpinLeft(float time)
+    IEnumerator SpinLeft(float time) //does a 360 rotation to the left and sets health to 1000 while doing so
     {
         hittable = false;
+        canBoost = false;
         Vector3 endPosition = new Vector3(transform.localPosition.x - 5f, transform.position.y, transform.position.z);
         float savedHealth = health;
         float i = 0.0f;
@@ -202,6 +232,7 @@ public class VehicleController : MonoBehaviour
         }
         health = savedHealth;
         hittable = true;
+        canBoost = true;
     }
 
     
