@@ -63,10 +63,8 @@ public class Asteroid : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            print("here");
             var obj = collision.gameObject.GetComponent<VehicleController>();
-            obj.takeDamage(damageDealt);
-            print(obj.health);
+            obj.OnDeath();
             OnDeath();
         }
     }
