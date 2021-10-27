@@ -95,7 +95,7 @@ public class VehicleController : MonoBehaviour
 
     void move(float x, float y, float speed)
     {
-        Vector3 look = new Vector3(x, y, 1.0f); ;
+        Vector3 look = new Vector3(x, y, 1.0f);
         transform.localPosition += new Vector3(x, y, 0) * speed * Time.deltaTime;
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(look), Mathf.Deg2Rad * 50.0f);
         StayInBounds();
@@ -113,8 +113,9 @@ public class VehicleController : MonoBehaviour
         {
             if (cart.m_Speed < maxSpeed)
             {
+                Camera.main.transform.position += new Vector3(0, 0, -0.2f);
                 cart.m_Speed += 0.1f;
-                changeCameraZoom(90);
+                //changeCameraZoom(90);
             }
         }
 
