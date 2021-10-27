@@ -124,7 +124,8 @@ public class VehicleController : MonoBehaviour
             if (cart.m_Speed > minSpeed)
             {
                 cart.m_Speed -= 0.1f;
-                changeCameraZoom(40);
+                Camera.main.transform.position += new Vector3(0, 0, 0.2f);
+                //changeCameraZoom(40);
             }
                
         }
@@ -139,20 +140,12 @@ public class VehicleController : MonoBehaviour
     }
 
     //This method clamps the player position to the ends of the screen
-    void StayInBounds() 
+    void StayInBounds()
     {
         Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
         position.x = Mathf.Clamp01(position.x);
         position.y = Mathf.Clamp01(position.y);
         transform.position = Camera.main.ViewportToWorldPoint(position);
-    }
-
-    void StayInBounds(GameObject x)
-    {
-        Vector3 position = Camera.main.WorldToViewportPoint(x.transform.position);
-        position.x = Mathf.Clamp01(position.x);
-        position.y = Mathf.Clamp01(position.y);
-        x.transform.position = Camera.main.ViewportToWorldPoint(position);
     }
 
     void changeCameraZoom(float zoom)
@@ -177,7 +170,7 @@ public class VehicleController : MonoBehaviour
 
     public void OnDeath()
     {
-        Destroy(this);
+        cart.m_Position = 0;
     }
 
     public void takeDamage(float dmg)
