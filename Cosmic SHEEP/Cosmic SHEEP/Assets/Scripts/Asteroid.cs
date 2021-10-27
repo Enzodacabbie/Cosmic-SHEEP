@@ -35,7 +35,7 @@ public class Asteroid : MonoBehaviour
             speed = minSpeed;
         }
 
-        if (Vector3.Dot(toTarget, transform.forward) -15 > 0) //this checks if the asteroid is behind the player (checks actually 4 units behind player)
+        if (Vector3.Dot(toTarget, transform.forward) -10 > 0) //this checks if the asteroid is behind the player (checks actually 4 units behind player)
         {
             OnDeath();
         }
@@ -50,7 +50,6 @@ public class Asteroid : MonoBehaviour
         {
             OnDeath();
         }
-
     }
 
     void OnDeath()
