@@ -25,12 +25,22 @@ public class Asteroid : MonoBehaviour
     void Update()
     {
         float distanceMoved = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, distanceMoved);
+        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, distanceMoved); //move towards the player
 
-        if (Vector3.Distance(transform.position, target.transform.position) < 4)
+        Vector3 toTarget = (target.transform.position - transform.position);
+        
+
+        if (Vector3.Distance(transform.position, target.transform.position) < 4) //if near the player, slow down
         {
             speed = minSpeed;
         }
+
+        if (Vector3.Dot(toTarget, transform.forward) -15 > 0) //this checks if the asteroid is behind the player (checks actually 4 units behind player)
+        {
+            OnDeath();
+        }
+            
+
     }    
 
     void takeDamage(float damage)
