@@ -437,8 +437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 8777564387475436940, guid: b4b7f854b90bf0642a4e28afdf359775, type: 3}
-  - {fileID: 4446303644628352158, guid: a3e9e72374a5b1f41ba8866dbdef5a97, type: 3}
+  - {fileID: 2529237257084518230, guid: b4b7f854b90bf0642a4e28afdf359775, type: 3}
+  - {fileID: 828477429974229244, guid: a3e9e72374a5b1f41ba8866dbdef5a97, type: 3}
   spawnvalues: {x: 7, y: 0, z: 0}
   spawnWait: 0
   spawnMostwait: 15
@@ -1096,8 +1096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 8777564387475436940, guid: b4b7f854b90bf0642a4e28afdf359775, type: 3}
-  - {fileID: 4446303644628352158, guid: a3e9e72374a5b1f41ba8866dbdef5a97, type: 3}
+  - {fileID: 828477429974229244, guid: a3e9e72374a5b1f41ba8866dbdef5a97, type: 3}
+  - {fileID: 2529237257084518230, guid: b4b7f854b90bf0642a4e28afdf359775, type: 3}
   spawnvalues: {x: 30, y: 3, z: 10}
   spawnWait: 2
   spawnMostwait: 5

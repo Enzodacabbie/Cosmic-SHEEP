@@ -1,0 +1,1424 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32583 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/josue/OneDrive/Documents/GitHub/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58960
+Successfully changed project path to: C:/Users/josue/OneDrive/Documents/GitHub/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
+C:/Users/josue/OneDrive/Documents/GitHub/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/josue/OneDrive/Documents/GitHub/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 Super (ID=0x1e91)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001873 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1167ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (158ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 2.508500 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.266300 ms  DeleteObjects: 0.051500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/projectt/triangular.anim
+  artifactKey: Guid(1c51bf251940dff4b9ff9e3f3231ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular.anim using Guid(1c51bf251940dff4b9ff9e3f3231ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477d32bd65143f895e899199e05ad83a') in 0.028969 seconds 
+  Import took 0.031108 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.4 MB.
+System memory in use after: 37.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 2.779400 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.612500 ms  DeleteObjects: 0.008100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.363165 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd631a10c0835b8281cccb456697ab4') in 0.021180 seconds 
+  Import took 0.023197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.110913 seconds.
+  path: Assets/projectt/triangle.blend
+  artifactKey: Guid(a775b4b7ca54cf14b957a4d506b72add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangle.blend using Guid(a775b4b7ca54cf14b957a4d506b72add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acc12691d5c2201892f8d61ae13ec0b') in 0.112536 seconds 
+  Import took 0.115504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.946563 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcca358c5bd622dba3b18be9bf5861d0') in 0.021944 seconds 
+  Import took 0.024609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61197e8f1a7e9ab6cfd90979fb6d0543') in 0.018923 seconds 
+  Import took 0.021490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.841190 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6498953dd546703d51cadd0e1a79bc91') in 0.006451 seconds 
+  Import took 0.009276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8440f9f59c3ee7c4fa9ae1b957f6f456') in 0.007238 seconds 
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.701488 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c04ee8ef048189ef4d16977256c7af') in 0.018114 seconds 
+  Import took 0.021059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860058e8977b9cb39941cbbf83253994') in 0.014423 seconds 
+  Import took 0.017113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.942427 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd781ce5990350bb6f5d14b6988cce0f0') in 0.016529 seconds 
+  Import took 0.019206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8cab40ed7584b5cc185aa778ecd294') in 0.017147 seconds 
+  Import took 0.019808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.802579 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0705a9c6a2af8542b48055ca12875a1') in 0.015974 seconds 
+  Import took 0.018347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4caa795955b38651d5b077427321741') in 0.016474 seconds 
+  Import took 0.019722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.847796 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245be8eaf20aad6d4250bb8d4a96538b') in 0.016308 seconds 
+  Import took 0.018831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322de5eb9a9a90d46cc3cf10050b2ca1') in 0.011590 seconds 
+  Import took 0.014425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.811104 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291ddf05b72e83b5681fe2c45e7a2e9c') in 0.015209 seconds 
+  Import took 0.017745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddddddc5a825c9abe49532453aab5a11') in 0.014008 seconds 
+  Import took 0.016518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.240622 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb3467e6dc7129495256a5ef2a342e7') in 0.015383 seconds 
+  Import took 0.018537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7390d2cf7add81771c9ddaebe424c7') in 0.011648 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.416534 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e43fb1a925a299d97b80f04e422dc') in 0.014961 seconds 
+  Import took 0.017901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b1fd179112731b2a72263bb6bb85e') in 0.017493 seconds 
+  Import took 0.020452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.392234 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3603547c95a1179cb1450ec31f68899a') in 0.015479 seconds 
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe6f7a47eb7d7141eef9c30b667c5ad') in 0.015531 seconds 
+  Import took 0.018301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.581471 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84564bf5febb2e162ef001599d8df1b4') in 0.016036 seconds 
+  Import took 0.019489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033b43f7e13b4d99e1dfede04e7e180f') in 0.011347 seconds 
+  Import took 0.014512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.812850 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c8ad70d40d005ff04a335beb3cddeb') in 0.016444 seconds 
+  Import took 0.019183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c925dac845335e2c515314ee633a9318') in 0.013876 seconds 
+  Import took 0.016588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.403884 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703f07f37410681ec85f8be122ddc957') in 0.016096 seconds 
+  Import took 0.019092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c74001cd7c185427b624a04fe696a3') in 0.015163 seconds 
+  Import took 0.017869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.591054 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21af576627c2c3f2d2b2578562525a9b') in 0.015855 seconds 
+  Import took 0.018534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba110a3e3dce7919edb275495e8cc109') in 0.015690 seconds 
+  Import took 0.018678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.997394 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855f5c39bd876c9ffb8ce966ad9355d7') in 0.019818 seconds 
+  Import took 0.022397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ce7e56c0e2b588d035dce68197d8bf') in 0.014555 seconds 
+  Import took 0.016866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.603639 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8eb444c3b04b005c59c94398051af4') in 0.011445 seconds 
+  Import took 0.014776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6edc96e61cc603c6d65fc1fc811d45') in 0.011171 seconds 
+  Import took 0.014025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.997120 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d70f74ff399feca845561f92776bc7') in 0.012859 seconds 
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d1af516e45fe9b0f81685f6329ba04') in 0.014051 seconds 
+  Import took 0.017574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429411 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e720f78a6885c4e221d1c0dbb8a9fd1') in 0.015824 seconds 
+  Import took 0.018837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7981793dfb568b73b3f99e784e5a8574') in 0.014422 seconds 
+  Import took 0.016882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.768819 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90de3d353ecac59f6c9ea2f2f015c310') in 0.015579 seconds 
+  Import took 0.018213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d53a929935eb60eabeab1d217cb4ca') in 0.015880 seconds 
+  Import took 0.018976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.249039 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137e6ead3eea66a9ccc3dcc195ba6ec0') in 0.015519 seconds 
+  Import took 0.018355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6038100ef2e0033fe22e289a412409f6') in 0.015754 seconds 
+  Import took 0.019182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.098719 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3508a71aea66a4117cb386f63d300ca3') in 0.011023 seconds 
+  Import took 0.014332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46df33b05a24e0ef7c9d4b6c16c2631') in 0.013380 seconds 
+  Import took 0.016393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.901464 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dd7f52ea8b0905a5c08a8a563e31c9') in 0.012888 seconds 
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a40654c73458c62e7a434e4b7fb39e9') in 0.012505 seconds 
+  Import took 0.015471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.451594 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602ac622126bd0ed285db49f68e5556f') in 0.013897 seconds 
+  Import took 0.016677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc75abc3ba6bade2b7a11e951f95fb14') in 0.012946 seconds 
+  Import took 0.015889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.849554 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be0de30b966ce237f34ffb7936ade4') in 0.004853 seconds 
+  Import took 0.008000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf90f66a534e8b739fdd0350e7823a98') in 0.004680 seconds 
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.963561 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee6441aaafe25bc6e5b1f3d70587b0') in 0.016553 seconds 
+  Import took 0.019289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da58dc128847509c3f68171ff80adc7') in 0.013572 seconds 
+  Import took 0.017129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606907 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bc3044e3dea858ca23a2d5a4dd2c1e') in 0.016186 seconds 
+  Import took 0.019076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c9293714e4b9f1587ab2599d395a20') in 0.015365 seconds 
+  Import took 0.018273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.944801 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b6e301f932dfc4a5205362987b47e0') in 0.015400 seconds 
+  Import took 0.018518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452629331b086a04b37fbacfe86f890f') in 0.011775 seconds 
+  Import took 0.014702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.447444 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ed4f544a8d1ad999a0f0b3d42592b9') in 0.011287 seconds 
+  Import took 0.014148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1374a8eb9afef7cb720ba41401d03e3') in 0.012766 seconds 
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.885881 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc374f2503676b131c0da8f53bb20634') in 0.013918 seconds 
+  Import took 0.016983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8004c92b8021c80e06700bd02b33cb5') in 0.014305 seconds 
+  Import took 0.017722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.742805 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c202761bfa27a3f04195d565892325b') in 0.010983 seconds 
+  Import took 0.013683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfad1da2b12c76c0e96f60abc524ca35') in 0.011109 seconds 
+  Import took 0.014110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.227867 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3842f2b3507130ae4c6fd031f99214a7') in 0.013047 seconds 
+  Import took 0.016105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05579f0b1b1f60dcff1c201c933f8ea') in 0.013033 seconds 
+  Import took 0.015889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.401335 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b21593e57b2832b6324e2685947a4d') in 0.014208 seconds 
+  Import took 0.017121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1311cbcaa363650480806d9161fd1a') in 0.014704 seconds 
+  Import took 0.017945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.495586 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea204a0bb52c5f746c6e707ffdfa62b3') in 0.011557 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03483e42f69bba3122a357e2acce349') in 0.012188 seconds 
+  Import took 0.015004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.853168 seconds.
+  path: Assets/projectt/pentagon enemy.prefab
+  artifactKey: Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy.prefab using Guid(2139c3ed0b211d449ba3142fa10f398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d379582fb881ccfeee93f01c6cbcf6') in 0.012905 seconds 
+  Import took 0.015456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/projectt/triangular animation.prefab
+  artifactKey: Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/triangular animation.prefab using Guid(3647e6fe6c7ca494b9505c291c79482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a6b6c91708003f1e30c891cc26db7b') in 0.017324 seconds 
+  Import took 0.020112 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (742ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 2.298800 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 479.153271 seconds.
+  path: Assets/projectt/pentagon enemy 1.prefab
+  artifactKey: Guid(19c160ad88582764b9d2dbda8742d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy 1.prefab using Guid(19c160ad88582764b9d2dbda8742d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c983530768a2b10bda5d3cc9d53ff0') in 0.068326 seconds 
+  Import took 0.071106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.975612 seconds.
+  path: Assets/projectt/hexagon enemy 1.prefab
+  artifactKey: Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagon enemy 1.prefab using Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7edf3574ffcf17e316eed350ebd7bcf') in 0.014864 seconds 
+  Import took 0.017436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003606 seconds.
+  path: Assets/projectt/hexagon enemy 1.prefab
+  artifactKey: Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagon enemy 1.prefab using Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7edf3574ffcf17e316eed350ebd7bcf') in 0.010034 seconds 
+  Import took 0.012624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.903115 seconds.
+  path: Assets/projectt/hexagon enemy 1.prefab
+  artifactKey: Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagon enemy 1.prefab using Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc925eed2738420e00e7b2d55493e9f7') in 0.009900 seconds 
+  Import took 0.012812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.350162 seconds.
+  path: Assets/projectt/hexagon enemy 1.prefab
+  artifactKey: Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagon enemy 1.prefab using Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6948739a4c224d5e12959a307d8de08') in 0.010206 seconds 
+  Import took 0.012843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.400955 seconds.
+  path: Assets/projectt/hexagon enemy 1.prefab
+  artifactKey: Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagon enemy 1.prefab using Guid(8852f9c67b009fd4fb1f8f8096d3f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b638897a5a9bb1a0f948342bd651a54e') in 0.009954 seconds 
+  Import took 0.012702 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 2.320500 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.146800 ms  DeleteObjects: 0.010900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (888ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.313000 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 2.117500 ms  DeleteObjects: 0.011300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.879833 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(84b823db1fdd893419ad45212ef3477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(84b823db1fdd893419ad45212ef3477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870676d9c7d2651a1b3f2b72d39bb544') in 0.008165 seconds 
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006675 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(84b823db1fdd893419ad45212ef3477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(84b823db1fdd893419ad45212ef3477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870676d9c7d2651a1b3f2b72d39bb544') in 0.001949 seconds 
+  Import took 0.004387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 2.462000 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.255700 ms  DeleteObjects: 0.012600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 2.233800 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.061300 ms  DeleteObjects: 0.011600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.303600 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.044900 ms MarkObjects: 2.113700 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 325.059942 seconds.
+  path: Assets/projectt/sevenside.blend
+  artifactKey: Guid(0ea635b340c0fb34d9d66d8408dc9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/sevenside.blend using Guid(0ea635b340c0fb34d9d66d8408dc9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7677f6065f592104ab1821414d6057') in 0.102590 seconds 
+  Import took 0.105240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.934115 seconds.
+  path: Assets/projectt/pentagon.blend
+  artifactKey: Guid(43112b7d977755a478d089871a08e016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon.blend using Guid(43112b7d977755a478d089871a08e016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789cf638de069b0dc2046bd67934985f') in 0.035033 seconds 
+  Import took 0.037808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.149494 seconds.
+  path: Assets/projectt/pentagon enemy 1.prefab
+  artifactKey: Guid(19c160ad88582764b9d2dbda8742d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagon enemy 1.prefab using Guid(19c160ad88582764b9d2dbda8742d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaf8da73c9d3e119daed8f437fb665f') in 0.015551 seconds 
+  Import took 0.018184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.415890 seconds.
+  path: Assets/projectt/pentagonenemy.prefab
+  artifactKey: Guid(a3e9e72374a5b1f41ba8866dbdef5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagonenemy.prefab using Guid(a3e9e72374a5b1f41ba8866dbdef5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7968281ec044a085c62d9fae20850a') in 0.013902 seconds 
+  Import took 0.016728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/projectt/pentagonenemy.prefab
+  artifactKey: Guid(a3e9e72374a5b1f41ba8866dbdef5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/pentagonenemy.prefab using Guid(a3e9e72374a5b1f41ba8866dbdef5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7968281ec044a085c62d9fae20850a') in 0.009344 seconds 
+  Import took 0.011913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.251864 seconds.
+  path: Assets/projectt/hexagonenemy.prefab
+  artifactKey: Guid(b4b7f854b90bf0642a4e28afdf359775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagonenemy.prefab using Guid(b4b7f854b90bf0642a4e28afdf359775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de04786ffa0285e06e76475df3f436f8') in 0.015675 seconds 
+  Import took 0.018311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004699 seconds.
+  path: Assets/projectt/hexagonenemy.prefab
+  artifactKey: Guid(b4b7f854b90bf0642a4e28afdf359775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/hexagonenemy.prefab using Guid(b4b7f854b90bf0642a4e28afdf359775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de04786ffa0285e06e76475df3f436f8') in 0.008605 seconds 
+  Import took 0.011042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 2.395900 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.218300 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172.265608 seconds.
+  path: Assets/enemyanimations
+  artifactKey: Guid(1815e60173b809c43bd531a6b0cc178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemyanimations using Guid(1815e60173b809c43bd531a6b0cc178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff0b250c62b9bb678cb03cf01223e5b') in 0.008436 seconds 
+  Import took 0.010501 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 2.221100 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.039800 ms MarkObjects: 2.042600 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 408.493504 seconds.
+  path: Assets/projectt/floatingtriangle.prefab
+  artifactKey: Guid(853ca5193cab74c4aa224b10a5bd941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/projectt/floatingtriangle.prefab using Guid(853ca5193cab74c4aa224b10a5bd941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5145516cb22b4d3ac1b4f83e11d84383') in 0.051279 seconds 
+  Import took 0.053511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 2.422800 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.212400 ms  DeleteObjects: 0.012700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 2.220900 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.040900 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 463.967463 seconds.
+  path: Assets/enemyprefabs
+  artifactKey: Guid(f1101cfa2183f244182bdcef4ce10e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemyprefabs using Guid(f1101cfa2183f244182bdcef4ce10e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7797678b11611f1baa254be62ca9f3a') in 0.009522 seconds 
+  Import took 0.011860 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
