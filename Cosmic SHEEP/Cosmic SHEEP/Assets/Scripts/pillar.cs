@@ -18,7 +18,6 @@ public class pillar : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        print("here");
         if (collision.gameObject.tag == "Player")
         {
             var obj = collision.gameObject.GetComponent<VehicleController>();

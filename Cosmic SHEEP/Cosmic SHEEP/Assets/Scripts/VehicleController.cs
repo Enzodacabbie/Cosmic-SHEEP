@@ -193,10 +193,12 @@ public class VehicleController : MonoBehaviour
         health = 1000.0f;
         while (transform.position != endPosition &&  i < time)
         {
+            Physics.IgnoreLayerCollision(0, 6, true);
             i += Time.deltaTime;
             transform.Rotate(0f, 0f, 360f * time * Time.deltaTime, Space.Self);
             yield return null;
         }
+        Physics.IgnoreLayerCollision(0, 6, false);
 
         health = savedHealth;
         moveable = true;
@@ -206,6 +208,7 @@ public class VehicleController : MonoBehaviour
 
     IEnumerator SpinLeft(float time) //does a 360 rotation to the left and sets health to 1000 while doing so
     {
+
         hittable = false;
         canBoost = false;
         moveable = false;
@@ -213,13 +216,14 @@ public class VehicleController : MonoBehaviour
         float i = 0.0f;
         Vector3 endPosition = new Vector3(transform.localPosition.x - 5f, transform.position.y, transform.position.z);
 
-        health = 1000.0f;
         while (transform.position != endPosition && i < time)
         {
+            Physics.IgnoreLayerCollision(0, 6, true);
             i += Time.deltaTime;
             transform.Rotate(0f, 0f, 360f * time * Time.deltaTime, Space.Self);
             yield return null;
         }
+        Physics.IgnoreLayerCollision(0, 6, false);
 
         health = savedHealth;
         moveable = true;

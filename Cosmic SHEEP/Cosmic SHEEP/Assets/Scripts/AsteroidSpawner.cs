@@ -6,6 +6,7 @@ public class AsteroidSpawner : MonoBehaviour
 {
     public float spawnSpeed;
     public float distance;
+    public float spawnTime;
     public bool canSpawn;
 
     public GameObject spawnObject;
@@ -14,6 +15,7 @@ public class AsteroidSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spawnTime = 6;
         canSpawn = true;
     }
 
@@ -22,7 +24,7 @@ public class AsteroidSpawner : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, target.transform.position) < 30 && canSpawn == true)
         {
-            StartCoroutine(Spawn(4));
+            StartCoroutine(Spawn(spawnTime));
         }
     }
 
