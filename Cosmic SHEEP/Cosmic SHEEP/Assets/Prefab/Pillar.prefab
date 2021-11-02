@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3669596714863200434}
   - component: {fileID: 3669596714863200435}
   - component: {fileID: 3669596714863200439}
+  - component: {fileID: 6030135852049466634}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Untagged
@@ -108,3 +109,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f988d89059b3de489f0cda820eb8487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6030135852049466634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669596714863200432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998445f399e5dd049abd5e396018bef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 15
+  amplitude: 0.5
+  frequency: 1
