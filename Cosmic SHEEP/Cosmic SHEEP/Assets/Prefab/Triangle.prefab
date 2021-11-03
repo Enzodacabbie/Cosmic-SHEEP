@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4686544958453866311}
   - component: {fileID: 8989399129311718603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangle
   m_TagString: Triangle
   m_Icon: {fileID: 0}
@@ -50,6 +50,7 @@ MonoBehaviour:
   range: 0
   type: 0
   shootLimit: 0
+  canShoot: 0
   projectile: {fileID: 6945377893362855244, guid: aef3d44fc459aec4aaa6da7fade6d105, type: 3}
   target: {fileID: 569218330537891678, guid: 6cd9918d37d5fb240a973fb696f4913d, type: 3}
 --- !u!54 &3604542677614181606
@@ -149,6 +150,14 @@ PrefabInstance:
     - target: {fileID: 4165856177294604215, guid: 3647e6fe6c7ca494b9505c291c79482d, type: 3}
       propertyPath: m_Name
       value: triangular animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165856177294604215, guid: 3647e6fe6c7ca494b9505c291c79482d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146079661756645684, guid: 3647e6fe6c7ca494b9505c291c79482d, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3647e6fe6c7ca494b9505c291c79482d, type: 3}

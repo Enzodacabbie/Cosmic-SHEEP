@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1005083393253242823}
   - component: {fileID: 7125613633683119133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: Square
   m_Icon: {fileID: 0}
@@ -93,6 +93,7 @@ MonoBehaviour:
   range: 0
   type: 0
   shootLimit: 0
+  canShoot: 0
   projectile: {fileID: 6945377893362855244, guid: aef3d44fc459aec4aaa6da7fade6d105, type: 3}
   target: {fileID: 569218330537891678, guid: 6cd9918d37d5fb240a973fb696f4913d, type: 3}
 --- !u!1001 &1005083393398751175
@@ -105,6 +106,10 @@ PrefabInstance:
     - target: {fileID: 7419447846427364664, guid: ca008737d86074b419cc356762e81408, type: 3}
       propertyPath: m_Name
       value: squareanimation 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419447846427364664, guid: ca008737d86074b419cc356762e81408, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7419447846427364664, guid: ca008737d86074b419cc356762e81408, type: 3}
       propertyPath: m_TagString
@@ -153,6 +158,10 @@ PrefabInstance:
     - target: {fileID: 7419447846427364670, guid: ca008737d86074b419cc356762e81408, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7658030014718146663, guid: ca008737d86074b419cc356762e81408, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca008737d86074b419cc356762e81408, type: 3}

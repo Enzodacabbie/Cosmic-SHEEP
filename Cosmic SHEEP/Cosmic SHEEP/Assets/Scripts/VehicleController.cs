@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class VehicleController : MonoBehaviour
 {
+    public static float lives = 3;
+    public static float lastCheckpoint;
+
     public float speed;
     public float health;
     public float maxHealth;
@@ -37,8 +41,9 @@ public class VehicleController : MonoBehaviour
         dashCooldown = 3f;
         dashDistance = 5f;
         dashTime = 1f;
+        cart.m_Position = lastCheckpoint;
         baseSpeed = cart.m_Speed;
-        maxSpeed = 8f;
+        maxSpeed = 15f;
         minSpeed = 2f;
         health = 100;
         maxHealth = 200;
@@ -49,6 +54,7 @@ public class VehicleController : MonoBehaviour
         canBoost = true;
         
     }
+
 
     // Update is called once per frame
     void Update()
@@ -170,7 +176,15 @@ public class VehicleController : MonoBehaviour
 
     public void OnDeath()
     {
-        cart.m_Position = 0;
+        if (cart.m_Position >= 2)
+            lastCheckpoint = 2;
+
+        lives -= 1;
+        if(lives <= 0)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+        SceneManager.LoadScene("player test");
     }
 
     public void takeDamage(float dmg)

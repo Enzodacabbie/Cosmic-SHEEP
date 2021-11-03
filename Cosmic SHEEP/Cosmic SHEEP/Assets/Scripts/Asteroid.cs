@@ -16,8 +16,8 @@ public class Asteroid : MonoBehaviour
     void Start()
     {
         health = 100;
-        speed = 6;
-        minSpeed = 3;
+        speed = 3;
+        minSpeed = 1;
         damageDealt = 20;
     }
 

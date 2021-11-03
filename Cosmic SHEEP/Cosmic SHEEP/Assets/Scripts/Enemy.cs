@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        Physics.IgnoreLayerCollision(7, 6, true);
         getEnemyType();
         range = 20f;
         health = 100.0f;
@@ -41,11 +42,13 @@ public class Enemy : MonoBehaviour
         if (this.gameObject.tag == "Square")
         {
             type = 1;
-            print("we are square");
         }
-            
+
         else if (this.gameObject.tag == "Triangle")
             type = 2;
+
+        else if (this.gameObject.tag == "Hexagon")
+            type = 3;
     }
 
     IEnumerator shoot(float time)
@@ -55,18 +58,14 @@ public class Enemy : MonoBehaviour
             shootLimit = 4;
         else if (type == 2)
             shootLimit = 3;
+        else if (type == 3)
+            shootLimit = 6;
 
         while (health > 0)
         {
-            
-
             float i = 0;
             while (i < shootLimit)
             {
-                if (canShoot == true)
-                {
-                    
-                }
                 var enemyProjectile = Instantiate(projectile, transform.position + new Vector3(0, 0, -2), transform.rotation);
                 enemyProjectile.GetComponent<Projectile>().target = target;
                 yield return new WaitForSeconds(0.2f);

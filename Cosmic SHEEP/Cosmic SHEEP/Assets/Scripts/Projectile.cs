@@ -17,9 +17,10 @@ public class Projectile : MonoBehaviour
 
     private void Awake()
     {
+        //Physics.IgnoreLayerCollision(6, 6, true);
         speed = 30f;
-        lifetime = 7.0f;
-        targetPosition = target.transform.position;
+        lifetime = 6.0f;
+        targetPosition = target.transform.position + new Vector3(0,0,5);
         StartCoroutine(die(lifetime));
     }
 
@@ -34,7 +35,7 @@ public class Projectile : MonoBehaviour
     IEnumerator die(float time)
     {
         yield return new WaitForSeconds(time);
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -44,6 +45,6 @@ public class Projectile : MonoBehaviour
             var obj = collision.gameObject.GetComponent<VehicleController>();
             obj.OnDeath();
         }
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }

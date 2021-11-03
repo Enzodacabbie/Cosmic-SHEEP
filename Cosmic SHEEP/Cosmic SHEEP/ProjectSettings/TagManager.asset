@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Square
   - Triangle
+  - Hexagon
   layers:
   - Default
   - TransparentFX
