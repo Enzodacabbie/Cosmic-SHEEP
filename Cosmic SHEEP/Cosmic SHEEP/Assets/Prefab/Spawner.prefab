@@ -108,8 +108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12c41fef077e89144938cba7198e445e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpeed: 0
+  spawnSpeed: 8
   distance: 0
+  spawnTime: 0
   canSpawn: 0
   spawnObject: {fileID: 5400273568528375599, guid: 50d405aeccbb68241b912f137851f262, type: 3}
-  target: {fileID: 0}
+  target: {fileID: 569218330537891678, guid: 6cd9918d37d5fb240a973fb696f4913d, type: 3}

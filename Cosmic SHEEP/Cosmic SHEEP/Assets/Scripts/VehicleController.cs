@@ -113,9 +113,9 @@ public class VehicleController : MonoBehaviour
         {
             if (cart.m_Speed < maxSpeed)
             {
-                Camera.main.transform.position += new Vector3(0, 0, -0.2f);
+                //Camera.main.transform.position += new Vector3(0, 0, -0.2f);
                 cart.m_Speed += 0.1f;
-                //changeCameraZoom(90);
+                changeCameraZoom(90);
             }
         }
 
@@ -124,8 +124,8 @@ public class VehicleController : MonoBehaviour
             if (cart.m_Speed > minSpeed)
             {
                 cart.m_Speed -= 0.1f;
-                Camera.main.transform.position += new Vector3(0, 0, 0.2f);
-                //changeCameraZoom(40);
+                //Camera.main.transform.position += new Vector3(0, 0, 0.2f);
+                changeCameraZoom(40);
             }
                
         }
