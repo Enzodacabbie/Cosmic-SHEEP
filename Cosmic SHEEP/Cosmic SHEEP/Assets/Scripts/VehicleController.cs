@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class VehicleController : MonoBehaviour
 {
-    public static float lives = 3;
-    public static float lastCheckpoint;
-
     public float speed;
     public float health;
     public float maxHealth;
@@ -35,13 +32,13 @@ public class VehicleController : MonoBehaviour
     void Start()
     {
         cart = this.GetComponentInParent<CinemachineDollyCart>();
+        
 
         speed = 10;
         nextDash = 0f;
         dashCooldown = 3f;
         dashDistance = 5f;
         dashTime = 1f;
-        cart.m_Position = lastCheckpoint;
         baseSpeed = cart.m_Speed;
         maxSpeed = 15f;
         minSpeed = 2f;
@@ -52,7 +49,10 @@ public class VehicleController : MonoBehaviour
         moveable = true;
         hittable = true;
         canBoost = true;
-        
+
+        cart.m_Position = PlayerData.lastCheckpoint;
+        print(PlayerData.lives);
+        print(PlayerData.lastCheckpoint);
     }
 
 
@@ -177,13 +177,19 @@ public class VehicleController : MonoBehaviour
     public void OnDeath()
     {
         if (cart.m_Position >= 2)
-            lastCheckpoint = 2;
+            PlayerData.lastCheckpoint = 2;
+        if (cart.m_Position >= 5)
+            PlayerData.lastCheckpoint = 5;
 
-        lives -= 1;
-        if(lives <= 0)
+        PlayerData.lives -= 1;
+        if(PlayerData.lives <= 0)
         {
-            SceneManager.LoadScene("Game Over");
+            print("here");
+            print(PlayerData.lastCheckpoint);
+            SceneManager.LoadScene("Game Over.unity");
         }
+
+        DontDestroyOnLoad(GameObject.Find("Track"));
         SceneManager.LoadScene("player test");
     }
 
