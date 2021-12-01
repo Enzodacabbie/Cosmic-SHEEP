@@ -176,10 +176,8 @@ public class VehicleController : MonoBehaviour
 
     public void OnDeath()
     {
-        if (cart.m_Position >= 2)
-            PlayerData.lastCheckpoint = 2;
-        if (cart.m_Position >= 5)
-            PlayerData.lastCheckpoint = 5;
+        if (cart.m_Position >= PlayerData.levelOneCheckpoint)
+            PlayerData.lastCheckpoint = PlayerData.levelOneCheckpoint;
 
         PlayerData.lives -= 1;
         if(PlayerData.lives <= 0)
