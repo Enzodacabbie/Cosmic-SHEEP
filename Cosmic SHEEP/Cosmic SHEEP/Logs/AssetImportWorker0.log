@@ -15,11 +15,11 @@ C:/Users/Enzod/Desktop/Cosmic/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65469
+64102
 Successfully changed project path to: C:/Users/Enzod/Desktop/Cosmic/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
 C:/Users/Enzod/Desktop/Cosmic/Cosmic-SHEEP/Cosmic SHEEP/Cosmic SHEEP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/Unity Versions/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,107 +35,107 @@ Initialize mono
 Mono path[0] = 'D:/Unity Versions/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Versions/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity Versions/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Versions/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Versions/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002609 seconds.
+Registered in 0.001952 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.844 seconds
+- Completed reload, in  1.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1845ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (1721ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (522ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (190ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004331 seconds.
+Registered in 0.004399 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002237AD6D1F0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-000002419D6559E0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A0677570 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002419CFB2870 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002237AD6D1F0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-000002419D05E830 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002237AD6D1F0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002419D05E830 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F0E93E0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002419CDA69B0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239FC82230 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002419D66AFF0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F24E020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002419C5B2020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F0416A0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002419D05E830 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F0EFE60 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002419CBCD010 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239FC82230 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002419C6E5230 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F0416A0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002419C58D030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F0E93E0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002419CDA69B0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F24E020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002419C702020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F116070 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024177F78E80 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F1A7010 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002419C76AA30 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.284 seconds
+- Completed reload, in  1.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1285ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1012ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (265ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (241ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
@@ -143,14 +143,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1563 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 147.0 MB.
 System memory in use after: 147.1 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2008.
-Total: 3.117200 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.808000 ms  DeleteObjects: 0.095300 ms)
+Total: 3.105200 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.036900 ms MarkObjects: 2.751100 ms  DeleteObjects: 0.144500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -164,175 +164,111 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Square Group.prefab
-  artifactKey: Guid(422b20162263d984d9b85d948d50bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Square Group.prefab using Guid(422b20162263d984d9b85d948d50bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd315444a6b648dc7bc1fc96223d3bc15') in 0.148302 seconds 
-  Import took 0.152502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefab/Square.prefab
-  artifactKey: Guid(78c504065a3d5c442a18f25d7812fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Square.prefab using Guid(78c504065a3d5c442a18f25d7812fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c7b0a3ac594144766b98461a82f170') in 0.028281 seconds 
-  Import took 0.032329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Prefab/Triangle.prefab
-  artifactKey: Guid(cc99ac7b545165d47a93194e041b6fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Triangle.prefab using Guid(cc99ac7b545165d47a93194e041b6fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a47cb9e8f917742b6a1b1be70af000f') in 0.023820 seconds 
-  Import took 0.027993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Prefab/Asteroid.prefab
-  artifactKey: Guid(50d405aeccbb68241b912f137851f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Asteroid.prefab using Guid(50d405aeccbb68241b912f137851f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494a0f321f8ff753228f161ef998063d') in 0.016229 seconds 
-  Import took 0.019446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Prefab/Ship.prefab
-  artifactKey: Guid(d3b74585e43ee8c4782ff5612556ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Ship.prefab using Guid(d3b74585e43ee8c4782ff5612556ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27a703b5c4dcde6e6031a1b2de6b50') in 0.023671 seconds 
-  Import took 0.027093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Prefab/Spawner.prefab
-  artifactKey: Guid(a840b38a8cfaa3747a49b594e1d07965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Spawner.prefab using Guid(a840b38a8cfaa3747a49b594e1d07965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d9a5e74118a97375127fae21cd48ca') in 0.024860 seconds 
-  Import took 0.030114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Prefab/Player.prefab
-  artifactKey: Guid(6cd9918d37d5fb240a973fb696f4913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Player.prefab using Guid(6cd9918d37d5fb240a973fb696f4913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea0c322b73ff3cbfbe2c942900eb067') in 0.024257 seconds 
-  Import took 0.027815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Prefab/Triangle Group.prefab
-  artifactKey: Guid(7f222c5854ea4e241a10034c9d9c2c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Triangle Group.prefab using Guid(7f222c5854ea4e241a10034c9d9c2c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ffb8d1a9b33bc9fbb7c05adb411305') in 0.022522 seconds 
-  Import took 0.026578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Prefab/Hexagon.prefab
-  artifactKey: Guid(fae8aeadc3ac3644680372d14162fbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Hexagon.prefab using Guid(fae8aeadc3ac3644680372d14162fbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7422ca32873a34f3cd3bf9bc35cb4a6') in 0.023799 seconds 
-  Import took 0.027911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
   path: Assets/Prefab/HitEffect.prefab
   artifactKey: Guid(f6383ea0b4d92594b947571d7e1074d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HitEffect.prefab using Guid(f6383ea0b4d92594b947571d7e1074d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c122b78341623f80ea194ee5def121d') in 0.019468 seconds 
-  Import took 0.023120 seconds .
+Start importing Assets/Prefab/HitEffect.prefab using Guid(f6383ea0b4d92594b947571d7e1074d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8605a99b2699e95c6f680e1199930492') in 0.132636 seconds 
+  Import took 0.135888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Prefab/Projectile.prefab
-  artifactKey: Guid(aef3d44fc459aec4aaa6da7fade6d105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Projectile.prefab using Guid(aef3d44fc459aec4aaa6da7fade6d105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fc388c0f35aa9f18193f87c52618e4') in 0.017747 seconds 
-  Import took 0.021031 seconds .
+  Time since last request: 97.552895 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(682a1393c05a84340a5f2c37965ffa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(682a1393c05a84340a5f2c37965ffa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8f005c3de56a5b2450ff53b5e82426') in 0.022944 seconds 
+  Import took 0.026185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefab/Pillar.prefab
-  artifactKey: Guid(93e103afd076a324faf37747c1a9c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pillar.prefab using Guid(93e103afd076a324faf37747c1a9c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919be7618a19a055a501498254a0247c') in 0.015615 seconds 
-  Import took 0.018669 seconds .
+  Time since last request: 6.347463 seconds.
+  path: Assets/Prefab/StructureOCubes.prefab
+  artifactKey: Guid(ccbfa4c227932f944b130fa5d6460446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/StructureOCubes.prefab using Guid(ccbfa4c227932f944b130fa5d6460446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fbd9ec18450d50dd4392c9f8342064') in 0.024275 seconds 
+  Import took 0.027498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.102229 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(96c14aa635f7c4503977fd676981250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(96c14aa635f7c4503977fd676981250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07913826d1266e5fcb07b245efb41b1c') in 0.010133 seconds 
+  Import took 0.012700 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004126 seconds.
+Registered in 0.004017 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000223A07D7020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-000002419D6559E0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002237AB45010 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002419C6ED240 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A130F030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000241A0930DB0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A3318020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000241A0930DB0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A293E9C0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002419CCD1020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A130F030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002419C95C020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002237AD1BEA0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002419C702020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A130F030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000024178477020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239F1CADE0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002419DB9E020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A130F030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000024177E4EE90 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A2839020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002419DF8B030 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A293E9C0 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002419D6DE010 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223A50C9020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002419E0EB420 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002237B0A3010 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002419C1EEC20 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002239FF45020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002419CF45020 doesn't match image C:\Users\Enzod\Desktop\Cosmic\Cosmic-SHEEP\Cosmic SHEEP\Cosmic SHEEP\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  1.135 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (358ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (246ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (234ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1551 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.8 MB.
+System memory in use before: 149.5 MB.
+System memory in use after: 149.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 3.185500 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.834700 ms  DeleteObjects: 0.045200 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 2.936900 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.036300 ms MarkObjects: 2.719100 ms  DeleteObjects: 0.021000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -344,12 +280,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 85.720174 seconds.
-  path: Assets/Prefab/HitEffect.prefab
-  artifactKey: Guid(f6383ea0b4d92594b947571d7e1074d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HitEffect.prefab using Guid(f6383ea0b4d92594b947571d7e1074d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f194ef1cc969ecdca926f110ecf118f1') in 0.069634 seconds 
-  Import took 0.073663 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
