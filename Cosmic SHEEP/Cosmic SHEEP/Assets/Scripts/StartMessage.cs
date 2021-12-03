@@ -5,6 +5,7 @@ using UnityEngine;
 public class StartMessage : MonoBehaviour
 {
     public GameObject message;
+    public float waitTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class StartMessage : MonoBehaviour
     }
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(waitTime);
         Destroy(message);
         Destroy(gameObject);
     }
