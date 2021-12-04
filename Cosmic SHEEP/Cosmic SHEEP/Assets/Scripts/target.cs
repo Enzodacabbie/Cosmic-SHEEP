@@ -12,6 +12,11 @@ public class target : MonoBehaviour
         health -= amount;
         if(health <= 0f)
         {
+           
+            if(this.GetComponent<Enemy>() != null)
+            {
+                this.GetComponent<Enemy>().health = -100;
+            }
             Explode();
         }
     }

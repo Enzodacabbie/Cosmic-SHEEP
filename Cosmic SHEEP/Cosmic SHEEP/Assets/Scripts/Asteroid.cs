@@ -50,7 +50,6 @@ public class Asteroid : MonoBehaviour
         {
             OnDeath();
         }
-
     }
 
     void OnDeath()

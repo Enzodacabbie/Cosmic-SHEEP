@@ -43,7 +43,6 @@ public class Enemy : MonoBehaviour
         {
             type = 1;
         }
-
         else if (this.gameObject.tag == "Triangle")
             type = 2;
 
@@ -60,9 +59,12 @@ public class Enemy : MonoBehaviour
             shootLimit = 3;
         else if (type == 3)
             shootLimit = 6;
+        else if (type == 4)
+            shootLimit = 1;
 
         while (health > 0)
         {
+            //if (Vector3.Distance(transform.position, target.transform.position) > 50) { break }
             float i = 0;
             while (i < shootLimit)
             {
