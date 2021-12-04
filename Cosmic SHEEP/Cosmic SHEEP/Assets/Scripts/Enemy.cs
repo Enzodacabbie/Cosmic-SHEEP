@@ -64,7 +64,12 @@ public class Enemy : MonoBehaviour
 
         while (health > 0)
         {
-            //if (Vector3.Distance(transform.position, target.transform.position) > 50) { break }
+            //if (Vector3.Distance(transform.position, target.transform.position) > 50) { yield break; }
+            Vector3 toTarget = (target.transform.position - transform.position);
+            if (Vector3.Dot(toTarget, transform.forward) > 0)
+            {
+                yield break;
+            }
             float i = 0;
             while (i < shootLimit)
             {
