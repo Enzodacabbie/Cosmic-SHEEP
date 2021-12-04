@@ -32,7 +32,6 @@ public class VehicleController : MonoBehaviour
     void Start()
     {
         cart = this.GetComponentInParent<CinemachineDollyCart>();
-        
 
         speed = 10;
         nextDash = 0f;
@@ -119,19 +118,16 @@ public class VehicleController : MonoBehaviour
         {
             if (cart.m_Speed < maxSpeed)
             {
-                //Camera.main.transform.position += new Vector3(0, 0, -0.2f);
                 cart.m_Speed += 0.1f;
-                changeCameraZoom(90);
+                Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 90, 0.1f);
             }
         }
-
         else
         {
             if (cart.m_Speed > minSpeed)
             {
                 cart.m_Speed -= 0.1f;
-                //Camera.main.transform.position += new Vector3(0, 0, 0.2f);
-                changeCameraZoom(40);
+                Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 40, 0.1f);
             }
                
         }
@@ -139,10 +135,17 @@ public class VehicleController : MonoBehaviour
 
     void resetSpeed()
     {
-        if (cart.m_Speed < baseSpeed) //the player is boosting
+        if (cart.m_Speed < baseSpeed)   //the player is boosting
+        {
             cart.m_Speed += 0.01f;
-        else
-            cart.m_Speed -= 0.01f;    //the player is breaking
+            Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 60, 0.1f);
+        }
+        else {
+            cart.m_Speed -= 0.01f;
+            Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 60, 0.1f);
+        }
+            
+        
     }
 
     //This method clamps the player position to the ends of the screen
@@ -182,12 +185,8 @@ public class VehicleController : MonoBehaviour
         PlayerData.lives -= 1;
         if(PlayerData.lives <= 0)
         {
-            print("here");
-            print(PlayerData.lastCheckpoint);
             SceneManager.LoadScene("Game Over.unity");
         }
-
-        DontDestroyOnLoad(GameObject.Find("Track"));
         SceneManager.LoadScene("player test");
     }
 
