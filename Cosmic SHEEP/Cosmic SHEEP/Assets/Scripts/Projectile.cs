@@ -29,8 +29,6 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //float distanceMoved = speed * Time.deltaTime;
-        //transform.position = Vector3.MoveTowards(transform.position, targetPosition, distanceMoved);
         transform.position += destVector * speed * Time.deltaTime;
     }
 

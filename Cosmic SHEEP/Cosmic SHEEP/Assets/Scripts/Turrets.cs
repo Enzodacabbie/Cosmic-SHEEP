@@ -46,6 +46,8 @@ public class Turrets : MonoBehaviour
 
         else if (this.gameObject.tag == "Hexagon")
             type = 3;
+        else if (this.gameObject.tag == "Staff")
+            type = 5;
         else
             type = 4;
     }
@@ -62,6 +64,8 @@ public class Turrets : MonoBehaviour
             shootLimit = 6;
         else if (type == 4)
             shootLimit = 1;
+        else if (type == 5)
+            shootLimit = 12;
 
         while (health > 0)
         {
@@ -71,6 +75,7 @@ public class Turrets : MonoBehaviour
             {
                 var enemyProjectile = Instantiate(projectile, transform.position + new Vector3(0, 0, -2), transform.rotation);
                 enemyProjectile.GetComponent<Projectile>().target = target;
+                enemyProjectile.GetComponent <bossProjectile>().target = target;
                 if (shootSound != null)
                 {
                     shootSound.PlayOneShot(shootSound.clip, 0.7f);

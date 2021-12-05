@@ -50,13 +50,15 @@ public class Enemy : MonoBehaviour
 
         else if (this.gameObject.tag == "Hexagon")
             type = 3;
+        else if (this.gameObject.tag == "Staff")
+            type = 5;
         else
             type = 4;
     }
 
     IEnumerator shoot(float time)
     {
-        
+
         //determine how many projectiles to shoot
         if (type == 1)
             shootLimit = 4;
@@ -66,6 +68,8 @@ public class Enemy : MonoBehaviour
             shootLimit = 6;
         else if (type == 4)
             shootLimit = 1;
+        else if (type == 5)
+            shootLimit = 12;
 
         while (health > 0)
         {

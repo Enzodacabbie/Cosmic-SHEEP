@@ -9,6 +9,7 @@ public class target : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        print(health);
         health -= amount;
         if(health <= 0f)
         {

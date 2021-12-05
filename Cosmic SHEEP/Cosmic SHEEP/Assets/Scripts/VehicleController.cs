@@ -181,9 +181,10 @@ public class VehicleController : MonoBehaviour
         print(currentLevel.name);
         if(currentLevel.name == "Level 3")
         {
-            print("yes");
             if(cart.m_Position >= PlayerData.levelThreeCheckpoint)
                 PlayerData.lastCheckpoint = PlayerData.levelThreeCheckpoint;
+            if (cart.m_Position >= PlayerData.levelThreeCheckpoint2)
+                PlayerData.lastCheckpoint = PlayerData.levelThreeCheckpoint2;
         }
         else if(currentLevel.name == "Level_ 1")
         {

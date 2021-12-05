@@ -9,6 +9,7 @@ TagManager:
   - Triangle
   - Hexagon
   - Terrain
+  - Staff
   layers:
   - Default
   - TransparentFX
