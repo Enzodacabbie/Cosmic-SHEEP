@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject projectile;
     public GameObject target;
+    public AudioSource shootSound;
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class Enemy : MonoBehaviour
         shootSpeed = 4f;
         maxHealth = 150;
         canShoot = false;
+        shootSound = this.GetComponent<AudioSource>();
         StartCoroutine(shoot(shootSpeed));
     }
 
@@ -48,10 +50,13 @@ public class Enemy : MonoBehaviour
 
         else if (this.gameObject.tag == "Hexagon")
             type = 3;
+        else
+            type = 4;
     }
 
     IEnumerator shoot(float time)
     {
+        
         //determine how many projectiles to shoot
         if (type == 1)
             shootLimit = 4;
@@ -66,7 +71,7 @@ public class Enemy : MonoBehaviour
         {
             //if (Vector3.Distance(transform.position, target.transform.position) > 50) { yield break; }
             Vector3 toTarget = (target.transform.position - transform.position);
-            if (Vector3.Dot(toTarget, transform.forward) > 0)
+            if (Vector3.Dot(toTarget, transform.localPosition) > 0)
             {
                 yield break;
             }
@@ -75,6 +80,11 @@ public class Enemy : MonoBehaviour
             {
                 var enemyProjectile = Instantiate(projectile, transform.position + new Vector3(0, 0, -2), transform.rotation);
                 enemyProjectile.GetComponent<Projectile>().target = target;
+                if(type != 4)
+                {
+                    shootSound.PlayOneShot(shootSound.clip, 0.05f);
+                }
+
                 yield return new WaitForSeconds(0.2f);
                 i++;
             }

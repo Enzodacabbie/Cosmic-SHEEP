@@ -24,6 +24,8 @@ public class SciFiWeapon : MonoBehaviour
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
+            AudioSource gunSound = this.GetComponent<AudioSource>();
+            gunSound.PlayOneShot(gunSound.clip, 0.5f);
         }
     }
     void Shoot()

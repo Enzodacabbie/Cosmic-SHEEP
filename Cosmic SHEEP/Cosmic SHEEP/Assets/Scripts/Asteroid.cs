@@ -17,7 +17,7 @@ public class Asteroid : MonoBehaviour
     {
         health = 100;
         speed = 3;
-        minSpeed = 1;
+        minSpeed = 2;
         damageDealt = 20;
     }
 

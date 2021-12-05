@@ -10,4 +10,5 @@ public static class PlayerData
 
     //information about the levels
     public static float levelOneCheckpoint = 65; //location of node 4 on track
+    public static float levelThreeCheckpoint = 210; //location of node 5
 }

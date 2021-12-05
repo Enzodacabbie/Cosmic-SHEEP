@@ -40,7 +40,7 @@ public class VehicleController : MonoBehaviour
         dashTime = 1f;
         baseSpeed = cart.m_Speed;
         maxSpeed = 15f;
-        minSpeed = 2f;
+        minSpeed = 5f;
         health = 100;
         maxHealth = 200;
         lookSpeed = 500;
@@ -50,8 +50,6 @@ public class VehicleController : MonoBehaviour
         canBoost = true;
 
         cart.m_Position = PlayerData.lastCheckpoint;
-        print(PlayerData.lives);
-        print(PlayerData.lastCheckpoint);
     }
 
 
@@ -179,15 +177,28 @@ public class VehicleController : MonoBehaviour
 
     public void OnDeath()
     {
-        if (cart.m_Position >= PlayerData.levelOneCheckpoint)
-            PlayerData.lastCheckpoint = PlayerData.levelOneCheckpoint;
+        Scene currentLevel = SceneManager.GetActiveScene();
+        print(currentLevel.name);
+        if(currentLevel.name == "Level 3")
+        {
+            print("yes");
+            if(cart.m_Position >= PlayerData.levelThreeCheckpoint)
+                PlayerData.lastCheckpoint = PlayerData.levelThreeCheckpoint;
+        }
+        else if(currentLevel.name == "Level_ 1")
+        {
+            if (cart.m_Position >= PlayerData.levelOneCheckpoint)
+                PlayerData.lastCheckpoint = PlayerData.levelOneCheckpoint;
+        }
+        
 
         PlayerData.lives -= 1;
         if(PlayerData.lives <= 0)
         {
             SceneManager.LoadScene("Game Over.unity");
         }
-        SceneManager.LoadScene("player test");
+       
+        SceneManager.LoadScene(currentLevel.name);
     }
 
     public void takeDamage(float dmg)

@@ -8,6 +8,7 @@ TagManager:
   - Square
   - Triangle
   - Hexagon
+  - Terrain
   layers:
   - Default
   - TransparentFX

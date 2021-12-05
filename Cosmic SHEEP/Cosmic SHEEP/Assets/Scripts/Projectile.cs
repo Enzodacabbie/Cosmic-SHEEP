@@ -48,6 +48,10 @@ public class Projectile : MonoBehaviour
             var obj = collision.gameObject.GetComponent<VehicleController>();
             obj.OnDeath();
         }
+        if (collision.gameObject.tag == "Terrain")
+        {
+            Destroy(this.gameObject);
+        }
         Destroy(this.gameObject);
     }
 }
