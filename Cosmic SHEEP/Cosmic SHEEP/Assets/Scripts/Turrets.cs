@@ -75,7 +75,8 @@ public class Turrets : MonoBehaviour
             {
                 var enemyProjectile = Instantiate(projectile, transform.position + new Vector3(0, 0, -2), transform.rotation);
                 enemyProjectile.GetComponent<Projectile>().target = target;
-                enemyProjectile.GetComponent <bossProjectile>().target = target;
+                if(enemyProjectile.GetComponent<bossProjectile>()!= null)
+                    enemyProjectile.GetComponent <bossProjectile>().target = target;
                 if (shootSound != null)
                 {
                     shootSound.PlayOneShot(shootSound.clip, 0.7f);

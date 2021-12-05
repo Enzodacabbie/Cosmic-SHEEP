@@ -94,6 +94,8 @@ public class VehicleController : MonoBehaviour
         {
             resetSpeed();
         }
+
+        endOfLevel();
     }
 
     void move(float x, float y, float speed)
@@ -178,7 +180,6 @@ public class VehicleController : MonoBehaviour
     public void OnDeath()
     {
         Scene currentLevel = SceneManager.GetActiveScene();
-        print(currentLevel.name);
         if(currentLevel.name == "Level 3")
         {
             if(cart.m_Position >= PlayerData.levelThreeCheckpoint)
@@ -196,10 +197,31 @@ public class VehicleController : MonoBehaviour
         PlayerData.lives -= 1;
         if(PlayerData.lives <= 0)
         {
-            SceneManager.LoadScene("Game Over.unity");
+            SceneManager.LoadScene("Game Over 1");
         }
-       
-        SceneManager.LoadScene(currentLevel.name);
+        else
+            SceneManager.LoadScene(currentLevel.name);
+    }
+
+    public void endOfLevel()
+    {
+        Scene currentLevel = SceneManager.GetActiveScene();
+        if (currentLevel.name == "Level0")
+        {
+            if (cart.m_Position >= PlayerData.levelZeroLength) {
+                SceneManager.LoadScene("Level_1");
+                PlayerData.lives = 3;
+            }
+                
+        }
+        if(currentLevel.name == "Level_1")
+        {
+            if (cart.m_Position >= PlayerData.levelOneLength) {
+                SceneManager.LoadScene("Level 2");
+                PlayerData.lives = 3;
+            }
+        }
+
     }
 
     public void takeDamage(float dmg)
@@ -209,6 +231,8 @@ public class VehicleController : MonoBehaviour
             OnDeath(); 
         }
     }
+
+    
 
     IEnumerator SpinRight(float time) //does a 360 rotation to the right and sets health 1000 while doing so
     {
