@@ -111,4 +111,5 @@ MonoBehaviour:
   speed: 0
   lifetime: 0
   targetPosition: {x: 0, y: 0, z: 0}
+  destVector: {x: 0, y: 0, z: 0}
   target: {fileID: 6155433569028580973, guid: d3b74585e43ee8c4782ff5612556ebce, type: 3}

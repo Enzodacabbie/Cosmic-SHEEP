@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using System.Collections;
 
 public class target : MonoBehaviour
 {
@@ -17,13 +18,20 @@ public class target : MonoBehaviour
             {
                 this.GetComponent<Enemy>().health = -100;
             }
-            Explode();
+            StartCoroutine(Explode());
+            
+
         }
     }
 
-    void Explode()
+    IEnumerator Explode()
     {
         GameObject impactGO = Instantiate(Explosion, transform.position, transform.rotation);
+
         Destroy(gameObject);
+        yield return new WaitForSeconds(2);
+        
+      
+
     }
 }
