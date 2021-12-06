@@ -17,6 +17,10 @@ public static class PlayerData
     public static float levelOneCheckpoint = 165; //location of node 4 on track
     public static float levelOneLength = 445;
 
+    //checkpoints level 2
+    public static float levelTwoCheckpoint = 350;
+    public static float levelTwoLength = 520;
+
     //checkpoints level 3
     public static float levelThreeCheckpoint = 210; //location of node 5
     public static float levelThreeCheckpoint2 = 506;

@@ -18,13 +18,13 @@ public class startBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(boss.GetComponent<target>().health);
         if(boss.gameObject != null)
         {
             if (boss.GetComponent<target>().health <= 0)
             {
                 weapons.SetActive(false);
-                SceneManager.LoadScene("Game Over 1");
-                //StartCoroutine(endGame());
+                SceneManager.LoadScene("Win Screen");
             }
         }
     }
@@ -33,7 +33,7 @@ public class startBoss : MonoBehaviour
     {
         weapons.SetActive(true);
         this.GetComponent<AudioSource>().Play();
-        StartCoroutine(rise(70));
+        //StartCoroutine(rise(70));
     }
 
     IEnumerator rise(float time)
@@ -49,9 +49,5 @@ public class startBoss : MonoBehaviour
         return null;
     }
 
-    IEnumerator endGame()
-    {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("player test");
-    }
+   
 }

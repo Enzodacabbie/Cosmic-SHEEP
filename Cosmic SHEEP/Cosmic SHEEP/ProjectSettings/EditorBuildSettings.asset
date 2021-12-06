@@ -5,21 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/player test.unity
     guid: 5b99c7e045327774d924d9c75c6cd30b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Over.unity
     guid: ecc3bab144a625c4a84c2c8f403ccf45
   - enabled: 1
     path: Assets/Scenes/Game Over 1.unity
     guid: b4f4b296c785eb64ba018afe4f59b16b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level 2.unity
     guid: e5778afc231c4bb4fba63697e14fc340
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 7b73bbff2c173664dacfa44ed5fd4b95
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: a00816ed728cf3f4a880a170134410af
   - enabled: 1
     path: Assets/Scenes/Level0.unity
     guid: cd30dbf67b7a3d74a9fa4ab042d46b2c
@@ -27,6 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_1.unity
     guid: 96c14aa635f7c4503977fd676981250f
   - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 8fc22630ebe16c04581b8f2e929d482b
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: bc7845df1ac2c134c8da2e12ffe02894
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: a1948db5d6bcb5a42ab3becb80df7720
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: d9e416d13dd25604e9585bd5bcd5384a
+  - enabled: 0
     path: Assets/Scenes/Old Scene (broken).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

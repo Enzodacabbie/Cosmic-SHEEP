@@ -187,13 +187,17 @@ public class VehicleController : MonoBehaviour
             if (cart.m_Position >= PlayerData.levelThreeCheckpoint2)
                 PlayerData.lastCheckpoint = PlayerData.levelThreeCheckpoint2;
         }
-        else if(currentLevel.name == "Level_ 1")
+        else if(currentLevel.name == "Level_1")
         {
             if (cart.m_Position >= PlayerData.levelOneCheckpoint)
                 PlayerData.lastCheckpoint = PlayerData.levelOneCheckpoint;
         }
+        else if(currentLevel.name == "Level 4")
+        {
+            if (cart.m_Position >= PlayerData.levelTwoCheckpoint)
+                PlayerData.lastCheckpoint = PlayerData.levelTwoCheckpoint;
+        }
         
-
         PlayerData.lives -= 1;
         if(PlayerData.lives <= 0)
         {
@@ -211,17 +215,27 @@ public class VehicleController : MonoBehaviour
             if (cart.m_Position >= PlayerData.levelZeroLength) {
                 SceneManager.LoadScene("Level_1");
                 PlayerData.lives = 3;
+                PlayerData.lastCheckpoint = 0;
             }
                 
         }
         if(currentLevel.name == "Level_1")
         {
             if (cart.m_Position >= PlayerData.levelOneLength) {
-                SceneManager.LoadScene("Level 2");
+                SceneManager.LoadScene("Level 4");
                 PlayerData.lives = 3;
+                PlayerData.lastCheckpoint = 0;
             }
         }
 
+        if(currentLevel.name == "Level 4")
+        {
+            if (cart.m_Position >= PlayerData.levelTwoLength) {
+                SceneManager.LoadScene("Level 3");
+                PlayerData.lives = 3;
+                PlayerData.lastCheckpoint = 0;
+            }
+        }
     }
 
     public void takeDamage(float dmg)
